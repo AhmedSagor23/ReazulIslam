@@ -1,0 +1,329 @@
+ *{
+      margin: 0; 
+      padding:0;
+      box-sizing: border-box;
+ }
+ h1,h2,h3,h4,h5,h6{ 
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+a{ 
+    font-size: 1.3rem; 
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+
+}
+p{ 
+    font-size: 1.2rem; 
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+
+}
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+
+}
+/* for mobile*/
+[class*="col-"]{
+width: 100%;
+}
+
+
+/* nav bar design start here*/
+.navbar{ 
+    padding: 1%7%; 
+    text-align: center;
+    background-color: rgba(180, 50, 50, 0.199);
+    background-image: url("image/sagor.jpg");
+    background-attachment: fixed; 
+    background-position:center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    
+
+}
+
+.navbar .logo{ 
+    border-radius: 50%;
+    transition: all 1s;
+    border: 5px solid rgb(255, 255, 255);
+
+}
+.navbar .logo:hover{  
+    opacity: .5;
+    transform: rotate(360deg);
+}
+.nav-heading h1{ 
+    margin: 0;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    padding-top: 5px;
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+   
+
+}
+.nav-heading h1:hover{ 
+    color: white; 
+    transition: all 1s;
+}
+.nav-menu { 
+    display: flex; 
+    flex-direction: column;
+}
+.nav-menu a{ 
+text-transform: capitalize; 
+margin: 10px 0;
+padding: 10px;
+transition: all .7s;
+color: white;
+
+
+}
+.nav-menu a:hover{ 
+    color: white; 
+    background-color: indigo;
+    border-radius: 4px;
+    border: none;
+}
+.navbar::after{ 
+    clear: both;
+    content: ''; 
+    display: table;
+}
+
+/* banner start here*/ 
+.banner-section{ 
+    background-image: url("image/flower.jpg");
+    background-attachment: fixed; 
+    background-position:center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    padding: 1% 7%;
+    height: 500px;
+}
+.banner-section .banner-contents{
+     text-align: center;
+     padding: 10px;
+     margin-top: 170px;
+}
+.banner-contents h1{ 
+    font-size: 2.3rem;
+    color: white;
+    background-color: rgba(255, 255, 0, 0.486);
+    border-radius: 10px; 
+    padding: 10px 0;
+    width: 100%;
+    transition: all .8s;
+    
+}
+.banner-contents p{  
+    text-transform: capitalize; 
+    text-align: center; 
+    background-color: green; 
+    margin: 20px;
+    border-radius: 5px;
+    padding: 10px 0;
+    transition: all .8s;
+
+}
+.banner-contents .btn{ 
+    text-align: center; 
+    width: 150px; 
+    text-transform: capitalize; 
+    background-color: white; 
+    padding: 10px;
+    margin: 10px;
+    border: none; 
+    border-radius: 2px; 
+    font-size: 1.2rem;
+    transition: all .8s;
+}
+.banner-contents h1:hover{ 
+    background-color: blueviolet;
+    color: white;
+    
+}
+.banner-contents p:hover{ 
+    background-color: blueviolet;
+    color: white;
+}
+.banner-contents .btn:hover{ 
+    background-color: blueviolet;
+    color: white;
+}
+.banner-section::after{ 
+    clear: both;
+    content: ''; 
+    display: table;
+}
+/* about us start here*/
+.about-us{ 
+    padding:1% 7% ;
+    background-color: aqua;
+}
+.about-us-content{ 
+    text-align: center;
+    line-height: 24px;
+    opacity: .8;
+
+}
+.about-us-content h2{ 
+margin: 40px;
+font-size:1.9rem;
+}
+.about-us::after{ 
+    clear: both;
+    content: ''; 
+    display: table;
+}
+
+/* services start here*/
+ .menu-section{ 
+     padding: 1% 7%;
+ }
+ .s-main{ 
+     text-align: center; 
+     padding: 1% 7%;
+     font-size: 2.5rem;
+     margin: 10px 0;
+
+ }
+
+ .card{ 
+     text-align: center;
+     max-width: 400px;
+     transition: all .6s;
+  
+     
+ }
+ .card-body img{ 
+     max-width: 100%;
+     height: 300px;
+     width: 400px;
+     display: block;
+ }
+ .card-body img:hover{
+opacity: .7;
+ }
+ .card-body{ 
+     text-align: center;
+     
+     
+ }
+ .item-desc{
+    background-color: blueviolet;
+ } 
+ .item-name{ 
+     font-size: 1.7rem;
+     background-color: rgb(0, 255, 136);
+     padding: 5px;
+     color: rgb(0, 0, 0);
+ }
+ .item-name:hover{ 
+     background-color: blue;
+     color: white;
+ }
+
+ .item-desc p{ 
+    
+    text-align: center;
+    text-transform: capitalize; 
+    margin: 10px 0;
+    color: white;
+
+ }
+ .item-desc p:hover{
+     color: black;
+ } 
+.card:hover{ 
+box-shadow: 1px 2px 4px 2px;
+
+}
+
+ .row::after{ 
+    clear: both;
+    content: ''; 
+    display: table;
+}
+
+/* map start here */
+.map-section{
+padding: 1% 7%;
+background-color: rgb(45, 185, 40);
+
+}
+.map{ 
+    width: 100%;
+    height: 400px;
+}
+.contact-details h1{ 
+    text-transform: uppercase; 
+    padding: 10px 0;
+    color: red;
+    text-decoration: underline;
+}
+.contact-details h5{ 
+    font-size: 1.5rem; 
+    margin: 5px 0;
+    text-transform: uppercase;
+    color: white;
+
+}
+.contact-details{ 
+    text-align: left;
+    
+}
+.contact-details p,address{ 
+    text-align: left;
+    margin: 10px 0;
+    color: blueviolet;
+    text-transform: capitalize;
+}
+
+.map-section::after{ 
+    clear: both;
+    content: ''; 
+    display: table;
+}
+
+
+/* footer start here  */
+
+.footer-section{ 
+    padding: 1%; 
+    background-color: black;
+
+}
+.media-icon{ 
+    text-align: center;
+
+}
+.icon-style{ 
+    
+    border: 1px solid rgb(230, 224, 224); 
+    border-radius: 100px; 
+    padding: 6px;
+    height:auto;
+    color: red;
+    margin: 10px;
+    text-align: center;
+
+}
+.icon-style:hover{ 
+    color: blue;
+}
+.footer-p p{ 
+    text-align: center; 
+    color: white;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.footer-section::after{ 
+    clear: both;
+    content: ''; 
+    display: table;
+}
